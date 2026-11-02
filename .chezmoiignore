@@ -3,3 +3,9 @@
 .ssh/id_ed25519
 .ssh/id_ed25519.pub
 {{- end }}
+
+{{- if ne .chezmoi.hostname "zeus" }}
+.config/hypr
+.config/hypr/**
+{{- end }}
+
