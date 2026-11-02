@@ -1,0 +1,15 @@
+Host ares
+  HostName 10.0.0.1
+  User toni
+
+Host zeus
+  HostName 10.0.0.5
+  User toni
+
+Host eros
+  HostName 10.0.0.12
+  User toni
+ 
+Host hera
+  HostName 10.0.0.11
+  User toni
