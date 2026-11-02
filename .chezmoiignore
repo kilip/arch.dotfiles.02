@@ -7,5 +7,17 @@
 {{- if ne .chezmoi.hostname "zeus" }}
 .config/hypr
 .config/hypr/**
+.config/waybar
+.config/waybar/**
+.config/rofi
+.config/rofi/**
+.config/nwg-displays
+.config/nwg-displays/**
+.config/kitty
+.config/kitty/**
+.screenlayout
+.screenlayout/**
+wallpaper
+wallpaper/**
 {{- end }}
 
