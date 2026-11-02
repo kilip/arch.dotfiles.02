@@ -1,0 +1,5 @@
+{{- $key := printf ".chezmoitemplates/ssh/id_ed25519_%s.age" .chezmoi.hostname -}}
+{{- if not (stat (joinPath .chezmoi.sourceDir $key)) }}
+.ssh/id_ed25519
+.ssh/id_ed25519.pub
+{{- end }}

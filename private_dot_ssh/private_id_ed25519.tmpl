@@ -1,0 +1,4 @@
+{{- $key := printf ".chezmoitemplates/ssh/id_ed25519_%s.age" .chezmoi.hostname -}}
+{{- if stat (joinPath .chezmoi.sourceDir $key) -}}
+{{   include $key | decrypt }}
+{{- end -}}
