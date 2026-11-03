@@ -19,5 +19,11 @@
 .screenlayout/**
 wallpaper
 wallpaper/**
+.config/OpenRGB
+.config/OpenRGB/**
 {{- end }}
+
+.config/OpenRGB/logs
+.config/OpenRGB/logs/**
+
 
